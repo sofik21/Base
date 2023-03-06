@@ -1,0 +1,185 @@
+
+
+body.theme-dark {
+    background: #1e211f;
+    .fa-sun {
+        cursor: pointer;
+        color: #fff;
+    }
+
+    // header-menu ----------
+    .header-menu.scrolled {
+        background: rgb(28,33,54);
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 1, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgb(75 77 82);
+    }
+
+    .header-menu-wrap ul li a {
+        color: var(--white);
+    }
+
+
+    .header-menu-wrap li ul {
+        background: rgb(28,33,54);
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgb(75 77 82);
+    }
+
+    .header-menu-wrap li ul::after {
+        background: rgb(28, 33, 54);
+        border: 1px solid rgb(75, 77, 82);
+        border-bottom: transparent;
+        border-right: transparent;
+    }
+
+    .header-menu-items ul li:hover > a {
+        color: var(--primary);
+    }
+
+    .home-sec-button-text a {
+        color: var(--white);
+    }
+    .sign-in a {
+        color: var(--black);
+    }
+
+    .sign-up a {
+        color: var(--black);
+    }
+    body.dark-theme .sign-in a {
+        color: var(--black);
+    }
+    body.dark-theme .sign-up a {
+        color: var(--black);
+    }
+
+
+    //team-section-----
+
+    .team-section {
+        background: var(--black);
+    }
+
+     // service-sec-------------
+
+     .service-sec-col-items {
+        background: rgb(28,33,54);
+    }
+    .offer-sec-column-items {
+        background: rgb(28,33,54);
+    }
+
+    // .offer-sec-------------
+    .offer-sec {
+        background: transparent;
+    }
+    .offer-sec-column-items .price-text span {
+        color: rgb(238 240 255);
+    }
+    //offer-sec-two--------------
+    .offer-sec-two-image-button {
+        background: rgb(28,33,54);
+    }
+    //testimonials-sec-slider---------
+
+   .testimonials-sec-slider {
+        background: rgb(28,33,54);
+    }
+    .slider-items-arrow i.fa-solid.fa-arrow-left, i.fa-solid.fa-arrow-right {
+        border: 2px solid var(--gray);
+    }
+
+    //counter-up-sec-----------
+    .counter-up-sec {
+        background: transparent;
+    }
+
+    //contact-sec-----------
+    .contact-sec-items {
+        background: rgb(28, 33, 54);
+    }
+    .contact-sec-items-two {
+        background: rgb(28, 33, 54);
+        span {
+            color: rgb(237 240 244);
+        }
+    }
+    .contact-sec-items-two .textarea-sec textarea {
+        border: 1px solid rgb(63 67 73);
+    }
+    .borders {
+        border-bottom: 1px solid rgb(63 67 73);
+    }
+
+    .contact-sec-items-two .input-sec .input-items input {
+        background: transparent;
+        border: 1px solid rgb(63 67 73);
+    }
+    //our-brands-sec----------------
+    .our-brands-sec {
+        border-bottom: 1px solid rgb(63 67 73);
+    }
+
+    //latest-blogs-sec------------
+    .larest-blogs-deteils-sec {
+        background: rgb(28, 33, 54);
+    }
+    .larest-blogs-deteils-sec h4 a {
+        color: var(--white);
+    }
+    .larest-blogs-deteils-sec h4:hover a{
+        color: var(--primary);
+    }
+    //footer-sec----------------------
+    .footer-bottom-sec {
+        border-top: 1px solid rgb(63 67 73);
+    }
+    .footer-sec-col-five input {
+        background: transparent;
+        border: 1px solid rgb(63 67 73);
+    }
+    
+    // common-class-----------------
+
+    h1 {
+        color: var(--white);
+    }
+
+    p {
+        color: var(--white);
+    }
+
+    span{
+        color: rgb(198 202 209);
+    }
+    h2{
+        color: var(--white);
+    }
+    h4{
+        color: var(--white);
+    }
+
+
+}
+
+
+
+
+i#icon {
+    color: #fff;
+}
+
+
+.header-menu.scrolled #icon {
+    color: var(--white);
+    cursor: pointer;
+}
+.fa-solid.fa-moon{
+    color: #000 !important;
+}
+.header-menu-button div:nth-child(1) {
+    margin-right: 23px;
+}
+
+
+

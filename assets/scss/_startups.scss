@@ -1,0 +1,99 @@
+.startups-sec {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+    background: var(--primary);
+    img.shape-16 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .startups-sec-items {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 1;
+        .startups-sec-text {
+            width: 51%;
+            h2 {
+                margin-bottom: 1rem;
+                color: var(--white);
+            }
+            p{
+                color: var(--white); 
+            }
+        }
+        .startups-btn-sec {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+    }
+}
+
+.startups-btn-sec a {
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background: var(--white);
+    border-radius: 101px;
+    font-size: 16px;
+    color: var(--black);
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+.startups-btn-sec:hover a {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    transition: 0.5s;
+}
+
+// --------------max-width:1200px------------------
+
+@media all and (max-width:1200px){
+    .startups-sec .startups-sec-items .startups-sec-text {
+        width: 71%;
+    }
+  
+}
+
+// --------------max-width:991px------------------
+
+@media all and (max-width:991px){
+    .startups-sec .startups-sec-items .startups-sec-text {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .startups-sec .startups-sec-items {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+// --------------max-width:768px------------------
+
+@media all and (max-width:768px){
+ 
+   
+}
+
+// --------------max-width:500px------------------
+
+@media all and (max-width:500px){
+   
+    .startups-sec {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        position: relative;
+        background: var(--primary);
+    }
+
+
+
+
+}
+
+

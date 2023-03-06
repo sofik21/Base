@@ -1,0 +1,213 @@
+.footer-sec {
+    padding-top: 6.25rem;
+}
+.footer-sec-col-one p {
+    width: 88%;
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+.footer-sec-col-one ul {
+    display: flex;
+    gap: 22px;
+}
+.footer-sec-col-one ul li {
+    opacity: 0.3;
+    color: var(--primary);
+}
+
+.footer-sec-col-one ul li:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.footer-sec-col{
+    padding-bottom: 4.25rem;
+    a {
+        margin-bottom: 0.75rem;
+        display: block;
+        color: var(--gray);
+        font-size: 16px;
+        font-family: "Inter", sans-serif;
+        line-height: 26px;
+        font-weight: 400;
+    }
+    h4 {
+        margin-bottom: 2.25rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-family: "Inter", sans-serif;
+        color: var(--black);
+    }
+} 
+.footer-sec-col a:hover{
+    color: var(--primary);
+    transition: 0.5s;
+}
+.footer-sec-col-five {
+    p {
+        margin-bottom: 1rem;
+    }
+    input {
+        border: 1px solid  rgb(216 225 237);
+        border-radius: 9999px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        width: 100%;
+        font-size: 16px;
+        color: var(--gray);
+        font-weight: 400;
+        font-family: "Inter", sans-serif;
+    }
+}
+
+
+.input-sec {
+    position: relative;
+}
+
+span.palne-icon {
+    position: absolute;
+    top: 15px;
+    right: 19px;
+}
+
+.input-sec {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom-items-one ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-bottom-items {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-sec {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    border-top: 1px solid rgb(216 225 237);
+}
+.footer-bottom-items-one ul li a {
+    font-size: 16px;
+    color: var(--gray);
+    font-family: "Inter", sans-serif;
+    line-height: 26px;
+    font-weight: 400;
+}
+.footer-bottom-items-one ul li a:hover{
+    color: var(--primary);
+    transition: 0.5s;
+}
+
+span.hiring {
+    background: rgb(32 202 102);
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    color: var(--white);
+    margin-left: 0.625rem;
+    border-radius: 99px;
+    font-size: 15px;
+}
+// --------------max-width:991px------------------
+
+@media all and (max-width:991px){
+   
+    .footer-sec-col-four {
+            margin-top: 30px;
+        }
+    .footer-sec-col-five {
+            margin-top: 30px;
+        }
+
+    .footer-bottom-items {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        display: block;
+    }
+    .footer-bottom-items-one ul {
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+// --------------max-width:768px------------------
+
+@media all and (max-width:768px){
+    .footer-sec-col-four {
+        margin-top: 0px;
+    }
+.footer-sec-col-five {
+        margin-top: 0px;
+    }
+   
+}
+
+// --------------max-width:500px------------------
+
+@media all and (max-width:575px){
+   
+    .footer-sec {
+        padding-top: 2.25rem;
+        padding-bottom: 0px;
+        .footer-sec-col{
+            padding-bottom: 2.25rem;
+            .footer-sec-col-items {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            h4 {
+                margin-bottom: 1rem;
+            }
+            .footer-sec-col-one{
+                ul {
+                    display: flex;
+                    gap: 22px;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                }
+                p {
+                    width: 88%;
+                    margin-top: 1.25rem;
+                    margin-bottom: 1.5rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            } 
+            .footer-sec-col-two {
+                margin-top: 20px;
+            }
+        } 
+        .footer-bottom-items-one ul {
+            display: flex;
+            gap: 1rem;
+        }
+    
+    }
+
+    
+  
+    
+  
+
+
+
+
+
+
+
+}
+

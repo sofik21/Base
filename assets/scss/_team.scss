@@ -1,0 +1,205 @@
+.team-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: rgb(244, 247, 250);
+    position: relative;
+    overflow: hidden;
+    // z-index: -10;
+}
+.team-section-heading h2 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1.125rem;
+}
+.team-section-heading p {
+    width: 53%;
+    margin: auto;
+    text-align: center;
+}
+img.shape-08 {
+    position: absolute;
+    top: 0;
+}
+
+img.shape-09 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: rotate(360deg);
+    animation: animate 30s linear infinite;
+}
+img.shape-10 {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+img.shape-11 {
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    transform: rotate(360deg);
+    animation: animate 30s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+@keyframes rrte {
+    100%{
+        transform:  scale(2);
+        opacity: 0;
+    }
+}
+
+
+.team-section-heading {
+    z-index: 3;
+    position: relative;
+}
+
+.team-section-mahe-cloumn {
+    margin-top: 4.375rem;
+    z-index: 3;
+    position: relative;
+    .col-lg-4 {
+        img.team-01 {
+            z-index: 1;
+            cursor: pointer;
+        }
+        h4 {
+            margin-bottom: 0.25rem;
+            margin-top: 1.875rem;
+        }
+        span {
+            text-align: center;
+        }
+    }
+    
+}
+
+
+.team-section-image {
+    position: relative;
+    overflow: hidden;
+    max-width: 360px;
+    margin: auto;
+}
+.team-section-image .span-one {
+    background: rgb(78, 107, 255);
+    width: 120%;
+    height: 9.375rem;
+    z-index: 20;
+    bottom: -5.25rem;
+    left: -1.25rem;
+    position: absolute;
+    rotate: 6deg;
+    display: block;
+}
+span.span-two {
+    background: rgb(243 106 141);
+    width: 100%;
+    height: 4.25rem;
+    display: block;
+    z-index: 10;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+.team-sec-icon {
+    position: absolute;
+    color: #fff;
+    display: flex;
+    gap: 19px;
+    z-index: 30;
+    bottom: 28px;
+    left: calc(71% - 30%);
+}
+.team-icon-section {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.team-icon-section {
+    position: relative;
+    transform: translatey(100px);
+}
+
+.team-section-image:hover .team-icon-section{
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    transform: translatey(0px);
+    transition: 0.9s;
+    
+}
+
+
+
+
+
+// --------------max-width:991px------------------
+
+@media all and (max-width:991px){
+   
+    .col-lg-4.col-md-12.team-section-second-col {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display: block;
+    }
+    .team-section-heading p {
+        width: 100%;
+    }
+    .team-section-heading h2 {
+        width: 100%;
+    }
+
+
+}
+
+// --------------max-width:768px------------------
+
+@media all and (max-width:768px){
+
+    .team-section {
+        padding-top: 140px;
+        padding-bottom: 110px;
+    } 
+
+}
+
+// --------------max-width:500px------------------
+
+@media all and (max-width:500px){
+    .team-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .team-section-heading h2 {
+        width: 100%;
+        color: var(--black);
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .team-section-heading p {
+        width: 100%;
+    }
+
+    .team-section-mahe-cloumn {
+        margin-top: 3.375rem;
+    }
+
+
+
+
+
+
+
+}
+
